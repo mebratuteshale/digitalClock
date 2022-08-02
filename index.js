@@ -1,8 +1,10 @@
+// ============= get DOM elements ==============
 const hourEl = document.getElementById("hour");
 const minuteEl= document.getElementById('minutes');
 const secondEl = document.getElementById('seconds');
 const ampmEl = document.getElementById('ampm')
 
+// ====================== a function to read computer time and display on the DOM elements ======================
 function updateClock() {
     let h = new Date().getHours();
     let m = new Date().getMinutes()
